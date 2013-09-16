@@ -11,6 +11,7 @@
 #import "BIDDisclosureButtonController.h"
 #import "BIDCheckListController.h"
 #import "BIDRowControlsController.h"
+#import "BIDMoveMeController.h"
 
 @implementation BIDFirstLevelController
 @synthesize controllers;
@@ -44,6 +45,12 @@
                                       @"rowControlsIcon.png"];
     [array addObject:rowControlsController];
     
+    // Move Me
+    BIDMoveMeController *moveMeController = [[BIDMoveMeController alloc]
+                                             initWithStyle:UITableViewStylePlain];
+    moveMeController.title = @"Move Me";
+    moveMeController.rowImage = [UIImage imageNamed:@"moveMeIcon.png"];
+    [array addObject:moveMeController];
     self.controllers = array;
 }
 
