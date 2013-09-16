@@ -28,6 +28,7 @@
 		00FD118217E707AE0076861B /* BIDRowControlsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD118117E707AE0076861B /* BIDRowControlsController.m */; };
 		00FD118517E70A550076861B /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FD118317E70A540076861B /* button_down.png */; };
 		00FD118617E70A550076861B /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FD118417E70A540076861B /* button_up.png */; };
+		00FD118917E70BCF0076861B /* BIDMoveMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD118817E70BCE0076861B /* BIDMoveMeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,8 @@
 		00FD118117E707AE0076861B /* BIDRowControlsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDRowControlsController.m; sourceTree = "<group>"; };
 		00FD118317E70A540076861B /* button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_down.png; sourceTree = "<group>"; };
 		00FD118417E70A540076861B /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_up.png; sourceTree = "<group>"; };
+		00FD118717E70BCD0076861B /* BIDMoveMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDMoveMeController.h; sourceTree = "<group>"; };
+		00FD118817E70BCE0076861B /* BIDMoveMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDMoveMeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 				00FD117E17E705EC0076861B /* BIDCheckListController.m */,
 				00FD118017E707AD0076861B /* BIDRowControlsController.h */,
 				00FD118117E707AE0076861B /* BIDRowControlsController.m */,
+				00FD118717E70BCD0076861B /* BIDMoveMeController.h */,
+				00FD118817E70BCE0076861B /* BIDMoveMeController.m */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 				00FD117A17E6FA770076861B /* BIDDisclosureDetailController.m in Sources */,
 				00FD117F17E705EC0076861B /* BIDCheckListController.m in Sources */,
 				00FD118217E707AE0076861B /* BIDRowControlsController.m in Sources */,
+				00FD118917E70BCF0076861B /* BIDMoveMeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
