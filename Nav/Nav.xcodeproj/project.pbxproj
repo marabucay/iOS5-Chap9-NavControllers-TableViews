@@ -23,6 +23,7 @@
 		00FD117417E6F8C30076861B /* rowControlsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FD116F17E6F8C30076861B /* rowControlsIcon.png */; };
 		00FD117717E6F9040076861B /* BIDDisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD117617E6F9040076861B /* BIDDisclosureButtonController.m */; };
 		00FD117A17E6FA770076861B /* BIDDisclosureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD117917E6FA760076861B /* BIDDisclosureDetailController.m */; };
+		00FD117C17E703DF0076861B /* BIDDisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FD117B17E703DF0076861B /* BIDDisclosureDetail.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		00FD117617E6F9040076861B /* BIDDisclosureButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureButtonController.m; sourceTree = "<group>"; };
 		00FD117817E6FA760076861B /* BIDDisclosureDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDisclosureDetailController.h; sourceTree = "<group>"; };
 		00FD117917E6FA760076861B /* BIDDisclosureDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureDetailController.m; sourceTree = "<group>"; };
+		00FD117B17E703DF0076861B /* BIDDisclosureDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDDisclosureDetail.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				00FD117617E6F9040076861B /* BIDDisclosureButtonController.m */,
 				00FD117817E6FA760076861B /* BIDDisclosureDetailController.h */,
 				00FD117917E6FA760076861B /* BIDDisclosureDetailController.m */,
+				00FD117B17E703DF0076861B /* BIDDisclosureDetail.xib */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				00FD117217E6F8C30076861B /* disclosureButtonControllerIcon.png in Resources */,
 				00FD117317E6F8C30076861B /* moveMeIcon.png in Resources */,
 				00FD117417E6F8C30076861B /* rowControlsIcon.png in Resources */,
+				00FD117C17E703DF0076861B /* BIDDisclosureDetail.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

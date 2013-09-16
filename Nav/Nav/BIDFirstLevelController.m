@@ -8,6 +8,7 @@
 
 #import "BIDFirstLevelController.h"
 #import "BIDSecondLevelViewController.h"
+#import "BIDDisclosureButtonController.h"
 
 @implementation BIDFirstLevelController
 @synthesize controllers;
@@ -15,6 +16,14 @@
     [super viewDidLoad];
     self.title = @"First Level";
     NSMutableArray *array = [[NSMutableArray alloc] init];
+    // Disclosure Button
+    BIDDisclosureButtonController *disclosureButtonController =
+    [[BIDDisclosureButtonController alloc]
+     initWithStyle:UITableViewStylePlain];
+    disclosureButtonController.title = @"Disclosure Buttons";
+    disclosureButtonController.rowImage = [UIImage
+                                           imageNamed:@"disclosureButtonControllerIcon.png"];
+    [array addObject:disclosureButtonController];
     self.controllers = array;
 }
 

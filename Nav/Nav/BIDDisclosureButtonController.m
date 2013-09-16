@@ -26,17 +26,21 @@
                       @"Cars 2", @"Brave", nil];
     self.list = array;
 }
+
 - (void)viewDidUnload {
     [super viewDidUnload];
     self.list = nil;
     self.childController = nil;
 }
+
 #pragma mark -
 #pragma mark Table Data Source Methods
+
 - (NSInteger)tableView:(UITableView *)tableView
  numberOfRowsInSection:(NSInteger)section {
     return [list count];
 }
+
 - (UITableViewCell *)tableView:(UITableView *)tableView
          cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString * DisclosureButtonCellIdentifier =
@@ -54,8 +58,10 @@
     cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
     return cell;
 }
+
 #pragma mark -
 #pragma mark Table Delegate Methods
+
 - (void)tableView:(UITableView *)tableView
 didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:
@@ -66,6 +72,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
                                           otherButtonTitles:nil];
     [alert show];
 }
+
 - (void)tableView:(UITableView *)tableView
 accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath {
     if (childController == nil) {
