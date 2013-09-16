@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BIDFirstLevelController : UITableViewCell
+@interface BIDFirstLevelController : UITableViewController
 
 @end

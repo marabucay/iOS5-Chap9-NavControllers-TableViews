@@ -7,15 +7,23 @@
 //
 
 #import "BIDAppDelegate.h"
+#import "BIDFirstLevelController.h"
 
 @implementation BIDAppDelegate
 
 @synthesize window = _window;
+@synthesize navController;
+
+#pragma mark -
+#pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    // Override point for customization after application launch
+    BIDFirstLevelController *first = [[BIDFirstLevelController alloc] initWithStyle:UITableViewStylePlain];
+    self.navController = [[UINavigationController alloc] initWithRootViewController:first];
+    [self.window addSubview:navController.view];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
