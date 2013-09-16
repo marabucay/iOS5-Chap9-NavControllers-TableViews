@@ -6,8 +6,9 @@
 //  Copyright (c) 2013 __MyCompanyName__. All rights reserved.
 //
 
-#import "BIDSecondLevelViewController.h"
+#import <UIKit/UIKit.h>
+@interface BIDDisclosureDetailController : UIViewController
 
-@interface BIDDisclosureButtonController : BIDSecondLevelViewController
-
+@property (strong, nonatomic) IBOutlet UILabel *label;
+@property (copy, nonatomic) NSString *message;
 @end
