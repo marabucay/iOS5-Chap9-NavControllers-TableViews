@@ -26,6 +26,8 @@
 		00FD117C17E703DF0076861B /* BIDDisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FD117B17E703DF0076861B /* BIDDisclosureDetail.xib */; };
 		00FD117F17E705EC0076861B /* BIDCheckListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD117E17E705EC0076861B /* BIDCheckListController.m */; };
 		00FD118217E707AE0076861B /* BIDRowControlsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD118117E707AE0076861B /* BIDRowControlsController.m */; };
+		00FD118517E70A550076861B /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FD118317E70A540076861B /* button_down.png */; };
+		00FD118617E70A550076861B /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FD118417E70A540076861B /* button_up.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		00FD117E17E705EC0076861B /* BIDCheckListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCheckListController.m; sourceTree = "<group>"; };
 		00FD118017E707AD0076861B /* BIDRowControlsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDRowControlsController.h; sourceTree = "<group>"; };
 		00FD118117E707AE0076861B /* BIDRowControlsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDRowControlsController.m; sourceTree = "<group>"; };
+		00FD118317E70A540076861B /* button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_down.png; sourceTree = "<group>"; };
+		00FD118417E70A540076861B /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_up.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				00FD116D17E6F8C30076861B /* disclosureButtonControllerIcon.png */,
 				00FD116E17E6F8C30076861B /* moveMeIcon.png */,
 				00FD116F17E6F8C30076861B /* rowControlsIcon.png */,
+				00FD118317E70A540076861B /* button_down.png */,
+				00FD118417E70A540076861B /* button_up.png */,
 				002F0A6C17E6ED8A005FCF43 /* Nav */,
 				002F0A6517E6ED8A005FCF43 /* Frameworks */,
 				002F0A6317E6ED8A005FCF43 /* Products */,
@@ -199,6 +205,8 @@
 				00FD117317E6F8C30076861B /* moveMeIcon.png in Resources */,
 				00FD117417E6F8C30076861B /* rowControlsIcon.png in Resources */,
 				00FD117C17E703DF0076861B /* BIDDisclosureDetail.xib in Resources */,
+				00FD118517E70A550076861B /* button_down.png in Resources */,
+				00FD118617E70A550076861B /* button_up.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
