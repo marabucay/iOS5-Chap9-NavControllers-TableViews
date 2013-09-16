@@ -9,5 +9,7 @@
 #import "BIDSecondLevelViewController.h"
 
 @interface BIDRowControlsController : BIDSecondLevelViewController
+@property (strong, nonatomic) NSArray *list;
+- (IBAction)buttonTapped:(id)sender;
 
 @end
