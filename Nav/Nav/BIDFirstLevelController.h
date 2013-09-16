@@ -10,4 +10,5 @@
 
 @interface BIDFirstLevelController : UITableViewController
 
+@property (strong, nonatomic) NSArray *controllers;
 @end

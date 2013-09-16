@@ -10,4 +10,5 @@
 
 @implementation BIDSecondLevelViewController
 
+@synthesize rowImage;
 @end
