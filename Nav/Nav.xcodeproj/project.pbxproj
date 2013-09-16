@@ -25,6 +25,7 @@
 		00FD117A17E6FA770076861B /* BIDDisclosureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD117917E6FA760076861B /* BIDDisclosureDetailController.m */; };
 		00FD117C17E703DF0076861B /* BIDDisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FD117B17E703DF0076861B /* BIDDisclosureDetail.xib */; };
 		00FD117F17E705EC0076861B /* BIDCheckListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD117E17E705EC0076861B /* BIDCheckListController.m */; };
+		00FD118217E707AE0076861B /* BIDRowControlsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD118117E707AE0076861B /* BIDRowControlsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,8 @@
 		00FD117B17E703DF0076861B /* BIDDisclosureDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDDisclosureDetail.xib; sourceTree = "<group>"; };
 		00FD117D17E705EB0076861B /* BIDCheckListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCheckListController.h; sourceTree = "<group>"; };
 		00FD117E17E705EC0076861B /* BIDCheckListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCheckListController.m; sourceTree = "<group>"; };
+		00FD118017E707AD0076861B /* BIDRowControlsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDRowControlsController.h; sourceTree = "<group>"; };
+		00FD118117E707AE0076861B /* BIDRowControlsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDRowControlsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				00FD117B17E703DF0076861B /* BIDDisclosureDetail.xib */,
 				00FD117D17E705EB0076861B /* BIDCheckListController.h */,
 				00FD117E17E705EC0076861B /* BIDCheckListController.m */,
+				00FD118017E707AD0076861B /* BIDRowControlsController.h */,
+				00FD118117E707AE0076861B /* BIDRowControlsController.m */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 				00FD117717E6F9040076861B /* BIDDisclosureButtonController.m in Sources */,
 				00FD117A17E6FA770076861B /* BIDDisclosureDetailController.m in Sources */,
 				00FD117F17E705EC0076861B /* BIDCheckListController.m in Sources */,
+				00FD118217E707AE0076861B /* BIDRowControlsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
