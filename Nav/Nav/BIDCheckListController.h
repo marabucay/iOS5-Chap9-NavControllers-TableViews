@@ -9,5 +9,7 @@
 #import "BIDSecondLevelViewController.h"
 
 @interface BIDCheckListController : BIDSecondLevelViewController
+@property (strong, nonatomic) NSArray *list;
+@property (strong, nonatomic) NSIndexPath *lastIndexPath;
 
 @end
