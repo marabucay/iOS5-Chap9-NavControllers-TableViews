@@ -22,6 +22,7 @@
 		00FD117317E6F8C30076861B /* moveMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FD116E17E6F8C30076861B /* moveMeIcon.png */; };
 		00FD117417E6F8C30076861B /* rowControlsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FD116F17E6F8C30076861B /* rowControlsIcon.png */; };
 		00FD117717E6F9040076861B /* BIDDisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD117617E6F9040076861B /* BIDDisclosureButtonController.m */; };
+		00FD117A17E6FA770076861B /* BIDDisclosureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD117917E6FA760076861B /* BIDDisclosureDetailController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		00FD116F17E6F8C30076861B /* rowControlsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rowControlsIcon.png; sourceTree = "<group>"; };
 		00FD117517E6F9040076861B /* BIDDisclosureButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDisclosureButtonController.h; sourceTree = "<group>"; };
 		00FD117617E6F9040076861B /* BIDDisclosureButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureButtonController.m; sourceTree = "<group>"; };
+		00FD117817E6FA760076861B /* BIDDisclosureDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDisclosureDetailController.h; sourceTree = "<group>"; };
+		00FD117917E6FA760076861B /* BIDDisclosureDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureDetailController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				00FD115B17E6F5EE0076861B /* BIDSecondLevelViewController.m */,
 				00FD117517E6F9040076861B /* BIDDisclosureButtonController.h */,
 				00FD117617E6F9040076861B /* BIDDisclosureButtonController.m */,
+				00FD117817E6FA760076861B /* BIDDisclosureDetailController.h */,
+				00FD117917E6FA760076861B /* BIDDisclosureDetailController.m */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 				00FD115917E6F4B10076861B /* BIDFirstLevelController.m in Sources */,
 				00FD115C17E6F5EE0076861B /* BIDSecondLevelViewController.m in Sources */,
 				00FD117717E6F9040076861B /* BIDDisclosureButtonController.m in Sources */,
+				00FD117A17E6FA770076861B /* BIDDisclosureDetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
