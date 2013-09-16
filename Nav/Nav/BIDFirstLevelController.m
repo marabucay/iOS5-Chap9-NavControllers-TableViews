@@ -9,6 +9,7 @@
 #import "BIDFirstLevelController.h"
 #import "BIDSecondLevelViewController.h"
 #import "BIDDisclosureButtonController.h"
+#import "BIDCheckListController.h"
 
 @implementation BIDFirstLevelController
 @synthesize controllers;
@@ -24,6 +25,14 @@
     disclosureButtonController.rowImage = [UIImage
                                            imageNamed:@"disclosureButtonControllerIcon.png"];
     [array addObject:disclosureButtonController];
+    
+    // Checklist
+    BIDCheckListController *checkListController = [[BIDCheckListController alloc]
+                                                   initWithStyle:UITableViewStylePlain];
+    checkListController.title = @"Check One";
+    checkListController.rowImage = [UIImage imageNamed:
+                                    @"checkmarkControllerIcon.png"];
+    [array addObject:checkListController];
     self.controllers = array;
 }
 
